@@ -18,7 +18,7 @@ namespace Seventeen.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Discography()
         {
             return View();
         }

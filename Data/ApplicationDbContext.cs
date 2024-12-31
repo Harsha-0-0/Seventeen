@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Seventeen.Models;
 
 namespace Seventeen.Data
 {
@@ -9,5 +10,6 @@ namespace Seventeen.Data
             : base(options)
         {
         }
+        public DbSet<Seventeen.Models.Songs> Songs { get; set; } = default!;
     }
 }
